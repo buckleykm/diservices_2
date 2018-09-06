@@ -1,0 +1,14 @@
+I:\dev projects\projects\diservices_2\DIServices.API\bin\Debug\netcoreapp2.1\DIServices.API.deps.json
+I:\dev projects\projects\diservices_2\DIServices.API\bin\Debug\netcoreapp2.1\DIServices.API.runtimeconfig.json
+I:\dev projects\projects\diservices_2\DIServices.API\bin\Debug\netcoreapp2.1\DIServices.API.runtimeconfig.dev.json
+I:\dev projects\projects\diservices_2\DIServices.API\bin\Debug\netcoreapp2.1\DIServices.API.dll
+I:\dev projects\projects\diservices_2\DIServices.API\bin\Debug\netcoreapp2.1\DIServices.API.pdb
+I:\dev projects\projects\diservices_2\DIServices.API\obj\Debug\netcoreapp2.1\DIServices.API.csprojAssemblyReference.cache
+I:\dev projects\projects\diservices_2\DIServices.API\obj\Debug\netcoreapp2.1\DIServices.API.csproj.CoreCompileInputs.cache
+I:\dev projects\projects\diservices_2\DIServices.API\obj\Debug\netcoreapp2.1\DIServices.API.RazorAssemblyInfo.cache
+I:\dev projects\projects\diservices_2\DIServices.API\obj\Debug\netcoreapp2.1\DIServices.API.RazorAssemblyInfo.cs
+I:\dev projects\projects\diservices_2\DIServices.API\obj\Debug\netcoreapp2.1\DIServices.API.AssemblyInfoInputs.cache
+I:\dev projects\projects\diservices_2\DIServices.API\obj\Debug\netcoreapp2.1\DIServices.API.AssemblyInfo.cs
+I:\dev projects\projects\diservices_2\DIServices.API\obj\Debug\netcoreapp2.1\DIServices.API.RazorTargetAssemblyInfo.cache
+I:\dev projects\projects\diservices_2\DIServices.API\obj\Debug\netcoreapp2.1\DIServices.API.dll
+I:\dev projects\projects\diservices_2\DIServices.API\obj\Debug\netcoreapp2.1\DIServices.API.pdb

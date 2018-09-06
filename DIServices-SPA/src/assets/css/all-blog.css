@@ -1,0 +1,540 @@
+/*general reset*/
+html,
+body{
+	height:100%;
+	margin:0;
+}
+body{
+	min-width:900px;
+	background: url(http://www.diservices.com/images/bg-blog.gif) repeat-x top;
+	font:12px/16px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color:#020202;
+}
+img{border-style:none;}
+a{
+	text-decoration:none;
+	color:#666;
+}
+a:hover{text-decoration:underline;}
+#wrapper{}
+* html #wrapper{height:100%;}
+.w1{
+	background-color:#fff;
+	width:100%;
+	overflow:hidden;
+	border-top:8px solid #f28e1e;
+}
+.holder{
+	width:900px;
+	padding:20px 0 0 20px;
+	margin:0 auto;
+}
+.holder:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+/*header*/
+#header{
+	background:#fff;
+	height:92px;
+	width:900px;
+	margin:0 auto;
+	padding:28px 0 0;
+	position:relative;
+	z-index:232;
+}
+.logo{
+	width:162px;
+	height:61px;
+	margin:0 0 1px 24px;
+	background:url(http://www.diservices.com/images/logo.gif) no-repeat;
+	text-indent:-9999px;
+	float:left;
+	display:inline;
+}
+.logo a{
+	display:block;
+	height:100%;
+	overflow:hidden;
+}
+/*main navigation*/
+.block{
+	clear:both;
+	width:100%;
+}
+.block:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+#nav{
+	padding:0;
+	margin:0;
+	list-style:none;
+	float:right;
+}
+#nav li{
+	float:left;
+	text-align:center;
+}
+#nav li a{
+	background:url(http://www.diservices.com/images/bg-nav.jpg) no-repeat;
+	display:block;
+	text-decoration:none;
+	color:#333;
+	font:13px Arial, Helvetica, sans-serif;
+	padding:8px 0 6px;
+}
+#nav li a.services{width:125px;}
+#nav li.active a.services,
+#nav li.hover a.services,
+#nav li:hover a.services{background-position:0 -30px;}
+#nav li a.products{
+	width:125px;
+	background-position:-125px 0;
+}
+#nav li.active a.products,
+#nav li.hover a.products,
+#nav li:hover a.products{background-position:-125px -30px;}
+#nav li a.sales{
+	width:140px;
+	background-position:-250px 0;
+}
+#nav li.active a.sales,
+#nav li.hover a.sales,
+#nav li:hover a.sales{background-position:-250px -30px;}
+#nav li a.contact{
+	width:132px;
+	background-position:-390px 0;
+}
+#nav li.active a.contact,
+#nav li.hover a.contact,
+#nav li:hover a.contact{background-position:-390px -30px;}
+#nav li a.broker{
+	width:159px;
+	background-position:-522px 0;
+}
+#nav li.active a.broker,
+#nav li.hover a.broker,
+#nav li:hover a.broker{background-position:-522px -30px;}
+#nav li:hover a,
+#nav li.hover a,
+#nav li.active a{color:#fff;}
+#nav li:hover li a,
+#nav li.hover li a{color:#000;}
+#nav li:hover li a:hover,
+#nav li.hover li a:hover{color:#fff;}
+#nav li:hover,
+#nav li.hover{position:relative; }
+#nav li:hover .drop,
+#nav li.hover .drop{display:block;}
+#nav .drop{
+	position:absolute;
+	left:0;
+	top:30px;
+	z-index:999;
+	width:999px;
+	display:none;
+	padding:2px 1px 1px 0;
+	background:url(https://www.diservices.com/images/bg-dropdowns.png);
+}
+#nav .drop div{
+	float:left;
+	background:#d9d9d9;
+	overflow:hidden;
+}
+#nav .drop ul{
+	padding:0;
+	margin:-1px 0 0;
+	float:left;
+	list-style:none;
+	overflow:hidden;
+}
+#nav .drop ul li{
+	float:none;
+	background:none;
+	text-align:left;
+	font-size:0;  
+	line-height:0;
+	border-top:1px solid #fff;
+}
+#nav .drop ul li a{
+	float:none;
+	display:block;
+	color:#000;
+	background:none;
+	font:12px/15px Arial, Helvetica, sans-serif;
+	position:relative;
+	cursor:pointer;
+	padding:6px 10px 4px 5px;
+}
+#nav .drop ul li:hover,
+#nav .drop ul li.hover{ 
+	background:#cc2943;
+	border:1px solid #d95e71;
+	border-width:1px 0;
+	margin:0 0 -1px;
+}
+/*broker quick links*/
+#header .menu{
+	width:158px;
+	height:23px;
+	position:relative;
+	border:1px solid #88061c;
+	float:right;
+	display:inline;
+	z-index:5;
+	margin:0;
+	background:#c4112f url(http://www.diservices.com/images/arrow.gif) no-repeat 100% 0;
+}
+#header .menu a {
+	display:block;
+	width:120px;
+	font:12px Arial, Helvetica, sans-serif;
+	color:#fff;
+	padding:4px 30px 3px 8px;
+}
+#header .menu a:hover {
+   text-decoration:underline;
+}
+#header .menu ul{
+	display:none;
+	padding:0;
+	margin:0;
+	list-style:none;
+	position:absolute;
+	top:24px;
+	left:-1px;
+}
+#header .menu ul li{
+	border:1px solid #88061c;
+	border-width:0 1px 1px;
+	background:#c4112f;
+}
+#header .menu.hover ul,
+#header .menu:hover ul{display:block;}
+/* visual */
+.visual{
+	background:#fdebd6;
+	width:100%;
+	height:262px;
+	position:relative;
+	overflow:hidden;
+	border:1px solid #d0d0d0;
+	border-width:1px 0;
+	z-index:1;
+}
+.center{
+	float:left;
+	height:100%;
+	width:100%;
+	left:50%;
+	position:relative;
+	background:#f0f9fd;
+}
+.center-inner{
+	overflow:hidden;
+	height:100%;
+	width:900px;
+	background:url(http://www.diservices.com/images/bg-box.jpg) repeat-y;
+	margin:0 auto;
+	height:100%;
+	left:-50%;
+	position:relative;
+}
+/*orange buttons*/
+.questions{
+	padding:25px 0 0 20px;
+	margin:0;
+	list-style:none;
+	background:url(http://www.diservices.com/images/img01.jpg) no-repeat 100% 0;
+	width:590px;
+	height:237px;
+	float:left;
+}
+.questions li{
+	width:316px;
+	height:58px;
+	margin:0 0 20px;
+	float:left;
+	display:table;
+}
+/*.questions a{
+	display:block;
+	overflow:hidden;
+	height:50px;
+	width:295px;
+	padding:4px 10px 4px 11px;
+	cursor:pointer;
+	background:url(../images/btn-orange.png) no-repeat;
+}*/
+.questions a:hover{text-decoration:none;}
+.questions strong{
+	font:bold 19px/23px "Times New Roman", Times, serif;
+	color:#030303;
+	display:block;
+}
+.questions .row{
+	width:270px;
+	height:25px;
+	padding:0 3px 0 10px;
+	text-align:right;
+	display:table-cell;
+	vertical-align:middle;
+	color:#fff;
+	font:bold italic 11px/13px Arial, Helvetica, sans-serif;
+}
+.mark{
+	display:block;
+	width:100%;
+	text-align:left;
+}
+/*vertical alignment*/
+* html .questions li{position:relative;}
+* +html .questions li{position:relative;}
+* html .questions .row{
+	overflow:hidden;
+	position:relative;
+	display:block;
+	margin:0 0 0 10px;
+	width:280px;
+}
+* +html .questions .row{
+	overflow:hidden;
+	position:relative;
+	display:block;
+	margin:0 0 0 10px;
+	width:280px;
+}
+* html .questions .container{
+	position:absolute;
+	top:50%;
+	left:0;
+	width:270px;
+}
+* +html .questions .container{
+	position:absolute;
+	top:50%;
+	left:0;
+	width:270px;
+}
+* html .questions .frame{
+	position:relative;
+	top:-50%;
+}
+* +html .questions .frame{
+	position:relative;
+	top:-50%;
+}
+.tools{
+	background:#f0f9fd;
+	list-style:none;
+	margin:40px 0 0;
+	padding:0 50px 0 40px;
+	float:left;
+}
+.tools li{
+	background:url(http://www.diservices.com/images/bullet.gif) no-repeat 0 7px;
+	padding:0 0 0 25px;
+	font:22px "Times New Roman", Times, serif;
+	margin:0 0 16px;
+}
+.tools li a{color:#c51230;}
+/*main*/
+#main{
+	background:#fff url(http://www.diservices.com/images/bg-main.jpg) repeat-x;
+	padding:0 0 68px;
+}
+#content{
+	overflow:hidden;
+	padding:0 0 0 6px;
+}
+#content p{
+	margin:0 0 13px;
+	overflow:hidden;
+}
+#content a, #content a:visited{
+	color: #CC0000;
+}
+#content a:hover{
+	text-decoration: underline;
+}
+#content .frame{
+	width:520px;
+	float:left;
+	padding:14px 53px 0 23px;
+}
+#content .siteframe{
+	width:580px;
+	float:left;
+	padding:14px 10px 0 10px;
+}
+#content .frame h1{
+	margin:0 0 15px;
+	font-size:14px;
+	line-height:15px;
+}
+#content .siteframe h1{
+	margin:0 0 15px;
+	font-size:14px;
+	line-height:15px;
+}
+#content .siteframe h2{
+    margin:20px 0 15px 0;
+    font-size:13px;
+    line-height:15px;
+    text-decoration: underline;
+}
+#content .siteframe h4{
+	margin:0 0 15px;
+	font-size:14px;
+	line-height:15px;
+	color: #CC0000;
+}
+#content .list{
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+#content .list li{
+	padding:0 0 0 9px;
+	margin:0 0 14px;
+	background:url(http://www.diservices.com/images/bullet-2.gif) no-repeat 0 5px;
+}
+#content .join{
+	width:240px;
+	float:left;
+	font-size:12px;
+	padding:0 15px 0 30px;
+}
+#content .join img{
+    padding: 10px 0 10px 0;
+}
+#content img.alignright{
+	float: right;
+	border: 1px solid #CC0000;
+	margin: 10px 0 10px 15px;
+	padding: 5px;
+}
+#content img.danquote{
+	float: right;
+	margin: 10px 0 10px 15px;
+}
+#content blockquote{
+	border: 1px dotted #CCCCCC;
+	margin: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 3px;
+	padding-left: 10px;
+}
+.join .txt-wednesday-webinars{
+	display:block;
+	width:238px;
+	height:61px;
+	font-size:0;
+	margin:8px 0 15px 0;
+	text-indent:-9999px;
+	background: url(http://www.diservices.com/images/txt-wednesday-webinars.gif) center no-repeat;
+}
+.join .txt-wednesday-webinars a{
+	display:block;
+	height:100%;
+	overflow:hidden;
+}
+.join .txt-di-tube{
+	display:block;
+	width:238px;
+	height:50px;
+	font-size:0;
+	margin:8px 0 15px 0;
+	background:url(http://www.diservices.com/images/DITube-icon.gif) center no-repeat;
+	text-indent:-9999px;
+}
+.join .txt-di-tube a{
+	display:block;
+	height:100%;
+	overflow:hidden;
+}
+.join .txt-di-revolution{
+	display:block;
+	width:238px;
+	height:100px;
+	font-size:0;
+	margin:8px 0 5px 0;
+	background:url(http://www.diservices.com/images/DIRevolutionLogo.gif) center no-repeat;
+	text-indent:-9999px;
+}
+.join .txt-di-revolution a{
+	display:block;
+	height:100%;
+	overflow:hidden;
+}
+
+.join .txt-di-awareness{
+	display:block;
+	width:238px;
+	height:132px;
+	font-size:0;
+	margin:8px 0 15px 0;
+	background:url(http://www.diservices.com/images/DIawareness-logo.gif) center no-repeat;
+	text-indent:-9999px;
+}
+.join .txt-di-awareness a{
+	display:block;
+	height:100%;
+	overflow:hidden;
+}
+.join h2{
+	margin:20px 0 8px 0;
+	font-size:12px;
+	line-height:15px;
+	text-decoration: underline;
+}
+.quote{
+	font-size: 10px;
+	color: #333333;
+}
+.quoteauthor{
+	font-size: 10px;
+	font-weight: bold;
+	color: #666666;
+}
+.red{
+	color: #C4112F;
+}
+/*footer*/
+#footer{
+	height:38px;
+	background:#fff;
+	overflow:hidden;
+	position:relative;
+	width:900px;
+	margin:-28px auto 0;
+	padding:0 0 0 24px;
+}
+#footer .frame{
+	border-top:1px solid #b2b2b2;
+	overflow:hidden;
+	padding:7px 0 0;
+	width:100%;
+}
+#footer .nav-list{
+	padding:0;
+	margin:0 0 0 -8px;
+	list-style:none;
+	overflow:hidden;
+	float:left;
+}
+#footer .nav-list li{
+	float:left;
+	padding:0 8px;
+	background:url(http://www.diservices.com/images/separator.gif) no-repeat 0 2px;
+}
+#footer p{
+    font-size: 9px;
+	color:#999999;
+	float:right;
+	margin:0;
+}
