@@ -1,0 +1,85 @@
+.homeCol {
+    padding: 0;
+    margin: 0;    
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+    max-width: 100%;    
+}
+.homeColWrap {
+    list-style: none;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    font-size: 14px; 
+    text-align: center;
+ }
+.homeColWrap-item {
+    font-size: 14px;
+}
+.homeNoLi {
+    list-style: none;
+    font-size: 14px;
+}
+.homeRound {
+    background:#cccccc;
+}
+.red{
+	text-align:center;
+    color:#cf202a;
+    font-weight: bold;
+}
+.redLink {
+    color:#cf202a;
+}
+.redLink a{
+    color:#cf202a;
+    font-weight: normal; 
+}
+.smallRed {
+    color:#cf202a;
+    font-weight: bold;
+}
+
+.ulBg {
+    background:#cccccc url(../../assets/images/bg-greylines.gif) repeat-x 100% 0;
+    position:relative;
+	overflow:hidden;
+}
+.ulLi{
+	padding:25px 0 0 20px;
+	margin:0;
+	list-style:none;
+    background:url(../../assets/images/greypic.jpg) no-repeat 100% 0;
+	max-width:500px;
+	height:237px;
+    float:left;
+    z-index: 1;
+}
+.ulLi li {
+    width:316px;
+    height:20px;
+    margin:0 0 50px;
+    float:left;
+    background:url(../../assets/images/white-arrow.png) no-repeat 0 0px;
+    padding-left: 20px;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 22px;
+
+}
+.ulLi li a{
+	color: #000;
+}
+.videoIframe {
+    background:#76797c;
+	max-width: 360px;
+	list-style:none;
+	margin: 0;
+	padding: 5px 5px 0px 5px;
+	float:left;
+	z-index:100;
+}

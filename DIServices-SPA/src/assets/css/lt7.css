@@ -1,9 +1,0 @@
-.questions li a{
-	background:none;
-	filter:progid:dximagetransform.microsoft.alphaimageloader(src='images/btn-orange.png', sizingmethod='crop');
-}
-#header .menu{behavior: expression(this.onmouseover = new Function("this.className += ' hover'"), this.onmouseout = new Function("this.className = this.className.replace(' hover','')"), this.style.behavior = null);}
-#nav .drop{
-filter:progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-dropdown.png', sizingmethod='scale');
-background:url(none.gif);
-}
